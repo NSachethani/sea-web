@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Blue - Ocean Exploration</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ocean+Sans&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-water"></i>
+                <span>Deep Blue</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#discover">Discover</a></li>
+                <li><a href="#creatures">Creatures</a></li>
+                <li><a href="#explore">Explore</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Explore the<br>Mysteries of the Deep</h1>
+            <p>Discover the enchanting world beneath the waves</p>
+            <a href="#discover" class="btn">Dive In</a>
+        </div>
+        <div class="hero-visual">
+            <div class="whale">
+                🐋
+            </div>
+            <div class="fish-school">
+                <span>🐟</span><span>🐠</span><span>🐟</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="discover" class="discover">
+        <h2>Ocean Zones</h2>
+        <div class="zones-grid">
+            <div class="zone-card" data-depth="0-200m">
+                <div class="zone-emoji">☀️</div>
+                <h3>Sunlight Zone</h0>
+                <p>0-200 meters deep</p>
+                <span class="depth-bar" style="--depth: 10%"></span>
+            </div>
+            <div class="zone-card" data-depth="200-1000m">
+                <div class="zone-emoji">🌊</div>
+                <h3>Twilight Zone</h3>
+                <p>200-1000 meters deep</p>
+                <span class="depth-bar" style="--depth: 35%"></span>
+            </div>
+            <div class="zone-card" data-depth="1000-4000m">
+                <div class="zone-emoji">🌑</div>
+                <h3>Midnight Zone</h3>
+                <p>1000-4000 meters deep</p>
+                <span class="depth-bar" style="--depth: 60%"></span>
+            </div>
+            <div class="zone-card" data-depth="4000-6000m">
+                <div class="zone-emoji">🦑</div>
+                <h3>Abyssal Zone</h3>
+                <p>4000-6000 meters deep</p>
+                <span class="depth-bar" style="--depth: 85%"></span>
+            </div>
+            <div class="zone-card" data-depth="6000m+">
+                <div class="zone-emoji">🌋</div>
+                <h3>Hadal Zone</h3>
+                <p>6000+ meters deep</p>
+                <span class="depth-bar" style="--depth: 100%"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="creatures" class="creatures">
+        <h2>Marvelous Creatures</h2>
+        <div class="creatures-slider">
+            <div class="creature-card">
+                <div class="creature-image">🐋</div>
+                <h3>Blue Whale</h3>
+                <p>The largest animal ever to exist</p>
+                <div class="creature-fact">Length: Up to 30m</div>
+            </div>
+            <div class="creature-card">
+                <div class="creature-image">🦈</div>
+                <h3>Great White Shark</h3>
+                <p> apex predator of the ocean</p>
+                <div class="creature-fact">Speed: 60 km/h</div>
+            </div>
+            <div class="creature-card">
+                <div class="creature-image">🦑</div>
+                <h3>Giant Squid</h3>
+                <p>Deep sea mystery</p>
+                <div class="creature-fact">Eyes: 27cm wide</div>
+            </div>
+            <div class="creature-card">
+                <div class="creature-image">🐢</div>
+                <h3>Sea Turtle</h3>
+                <p>Ancient navigator</p>
+                <div class="creature-fact">Age: 80+ years</div>
+            </div>
+            <div class="creature-card">
+                <div class="creature-image">🐡</div>
+                <h3>Pufferfish</h3>
+                <p>Spiky defense expert</p>
+                <div class="creature-fact">Toxin: 1200x deadlier than cyanide</div>
+            </div>
+            <div class="creature-card">
+                <div class="creature-image">🦑</div>
+                <h3>Octopus</h3>
+                <p>Master of camouflage</p>
+                <div class="creature-fact">3 hearts, blue blood</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="explore" class="explore">
+        <h2>Explore the Ocean</h2>
+        <div class="explore-container">
+            <div class="explore-info">
+                <h3>Why Protect Our Oceans?</h3>
+                <p>The ocean covers 71% of Earth's surface and produces over 50% of the world's oxygen. Yet it faces unprecedented threats from climate change, pollution, and overfishing.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-number">71%</span>
+                        <span class="stat-label">Earth's Surface</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50%</span>
+                        <span class="stat-label">World's Oxygen</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">80%</span>
+                        <span class="stat-label">Undiscovered Species</span>
+                    </div>
+                </div>
+            </div>
+            <div class="explore-visual">
+                <div class="ocean-depths">
+                    <div class="depth-layer" style="--opacity: 1">
+                        <span>0m</span>
+                        <div class="layer-content">☀️</div>
+                    </div>
+                    <div class="depth-layer" style="--opacity: 0.7">
+                        <span>200m</span>
+                        <div class="layer-content">🐠</div>
+                    </div>
+                    <div class="depth-layer" style="--opacity: 0.4">
+                        <span>1000m</span>
+                        <div class="layer-content">🦑</div>
+                    </div>
+                    <div class="depth-layer" style="--opacity: 0.1">
+                        <span>4000m</span>
+                        <div class="layer-content">🐟</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quiz">
+        <h2>Ocean Quiz</h2>
+        <div class="quiz-container">
+            <div class="quiz-question" id="questionBox">
+                <p id="question">What percentage of Earth's oxygen comes from the ocean?</p>
+                <div class="quiz-options" id="options">
+                    <button class="quiz-option" data-correct="false">25%</button>
+                    <button class="quiz-option" data-correct="true">50%</button>
+                    <button class="quiz-option" data-correct="false">75%</button>
+                    <button class="quiz-option" data-correct="false">10%</button>
+                </div>
+                <p class="quiz-result" id="result"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <i class="fas fa-water"></i>
+                    <span>Deep Blue</span>
+                </div>
+                <p>Inspiring ocean conservation through education and wonder.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#discover">Discover</a></li>
+                    <li><a href="#creatures">Creatures</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Deep Blue. Protecting our oceans for future generations.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
